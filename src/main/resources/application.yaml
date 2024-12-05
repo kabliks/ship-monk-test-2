@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/shipmonk-exchange-rates
+    username: shipmonk
+    password: secret
+  sql:
+    init:
+      mode: always
+
+client:
+  fixer:
+    api-key: 371582c698333ac3d083604f6f555ee8
+    base-uri: https://data.fixer.io/api
+
+application:
+  base-currency: EUR
